@@ -6,7 +6,6 @@
     <title>Unity WebGL Player | Testtele</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
- 	<script src="telegram.js"></script> <!-- Nhúng telegram.js -->
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -58,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/TestU6.loader.js";
+      var loaderUrl = buildUrl + "/TestTele.loader.js";
       var config = {
-        dataUrl: buildUrl + "/TestU6.data.br",
-        frameworkUrl: buildUrl + "/TestU6.framework.js.br",
-        codeUrl: buildUrl + "/TestU6.wasm.br",
+        dataUrl: buildUrl + "/TestTele.data",
+        frameworkUrl: buildUrl + "/TestTele.framework.js",
+        codeUrl: buildUrl + "/TestTele.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Testtele",
